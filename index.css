@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+    margin-top: 300px;
+}
+
+.button {
+    height: 100px;
+    width: 100px; 
+    border: none;
+    background-color: transparent;
+    background-image: url('heart-btn.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%; /* Makes the image fill 80% of the 100px button */
+    cursor: pointer; /* Recommended: Indicates the button is clickable */
+}
+
+.heart-btn {
+    text-align: center;
+}
+
+#quote-display {
+    color: darkred;
+    font-family: monospace;
+    text-align: center;
+}
